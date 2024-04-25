@@ -12,7 +12,7 @@ function changeBackground2(direction) {
   }
 
   let imageUrl = imgs[currentIndex];
-  changeBackground.style.backgroundImage = "url(../images/" + imageUrl + ")";
+  changeBackground.style.backgroundImage = `url(../images/${imageUrl})`;
 
   bullets.forEach((bullet, index) => {
     if (index === currentIndex) {
