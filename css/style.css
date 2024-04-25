@@ -155,7 +155,7 @@ nav {
 }
 @media (max-width: 468px) {
   .landing-page {
-    background-image: url(images/owl-phone.jpg);
+    background-image: url(../images/owl-phone.jpg);
     height: 100vh;
     background-size: cover;
     position: relative;
