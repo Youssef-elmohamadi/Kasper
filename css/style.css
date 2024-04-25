@@ -904,7 +904,7 @@ button.more {
   content: "";
   position: absolute;
   border-bottom: 1px solid var(--main-color);
-  width: 65%;
+  width: 80%;
   bottom: 0px;
   left: 37px;
 }
