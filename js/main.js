@@ -34,7 +34,7 @@ icons[1].addEventListener("click", function () {
 bullets.forEach(function (bullet, index) {
   bullet.addEventListener("click", function () {
     changeBackground.style.backgroundImage =
-      "url(../images/" + imgs[index] + ")";
+      "url(images/" + imgs[index] + ")";
     currentIndex = index;
     bullets.forEach((ele) => {
       ele.classList.remove("active");
